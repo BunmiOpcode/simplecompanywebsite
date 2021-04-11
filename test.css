@@ -1,0 +1,163 @@
+
+
+body{
+
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    margin: 0 20px 0 20px
+}
+
+*{
+    text-decoration: none;
+}
+
+
+header{
+    width:100%;
+    height: 80px;
+    background-color: white;
+}
+
+header nav ul{
+
+ display: block;
+ width: fit-content;
+ margin: 0 auto;
+}
+header nav ul li{
+    list-style: none;
+    width: fit-content;
+}
+header nav ul li a{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: black;
+    padding:0 16px;
+    margin-right: 70px;
+    line-height: 30px;
+}
+header nav ul li a:hover{
+    color:blue;
+}
+
+
+.banner{
+    background-image: url(images/bg3.jpg);
+    padding: 100px;
+}
+.image{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.first{
+    background-image: url(imagess/asoebi.jpg);
+}
+.second{
+    background-image: url(imagess/images58.jpeg);
+}
+.third{
+ background-image: url(imagess/images64.jpeg); 
+}
+.forth{
+ background-image: url(imagess/images59.jpeg); 
+}
+
+section h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 0 auto;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 0;
+    line-height: 50px;
+}
+section p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 40px;
+    font-style: italic;
+}
+.Section2{
+    background-color: #cc6699;
+    margin-top: 30px;
+    padding: 100px;
+}
+
+
+.col{
+
+    margin-right:73px;
+}
+.margin{
+
+    padding:100px; 
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.clearfix{
+    clear: both;
+}
+
+.btn{
+    border: 2px solid;
+    border-radius: 3px;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+    color: #cc6699;
+   
+
+}
+button:hover{
+    background-color:blue;
+    border-color: transparent;
+}
+
+footer{
+    background-color: black;
+    width:100%;
+    padding:20px 0 20px 0;
+    overflow: hidden;
+    
+
+    
+}
+footer ol {
+
+    text-align: center;
+}
+footer ol li a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-right: 70px;
+    line-height: 30px;
+
+}
+footer ol li a:hover{
+    color:blue;
+}
+footer ol li {
+    list-style: none;
+    display: inline;
+}
+
+
